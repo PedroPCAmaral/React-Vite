@@ -1,0 +1,53 @@
+.container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  width: 250px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input:focus {
+  border-color: #0056b3;
+}
+
+.botao {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #0056b3;
+}
+
+.mensagem {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #28a745;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;               
+  padding: 0;
+  height: 100vh;           
+  display: flex;           
+  justify-content: center; 
+  align-items: center;     /
+  background-color: #f8f9fa; 
+  font-family: Arial, sans-serif;
+}
