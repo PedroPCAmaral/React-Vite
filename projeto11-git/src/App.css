@@ -1,0 +1,64 @@
+/* Estilo geral */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+/* Título */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Painel de notificações */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.botao {
+  background-color: #ff4f5a;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #e43e4a;
+}
+
+.painel {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px 40px;
+  border-radius: 16px;
+  text-align: center;
+  width: 320px;
+  font-size: 15px;
+  color: #333;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Animação suave */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
